@@ -7,6 +7,12 @@ uri: ai-for-frontend-development
 authors:
   - title: Isaac Lombard
     url: https://www.ssw.com.au/people/isaac-lombard/
+  - title: Louis Roa
+    url: https://www.ssw.com.au/people/louis-roa/
+  - title: Calum Simpson
+    url: https://www.ssw.com.au/people/calum-simpson/
+  - title: Eddie Kranz
+    url: https://www.ssw.com.au/people/eddie-kranz/
 related:
   - generate-ui-mockups-with-ai
 created: 2025-01-23T16:56:00.000Z
