@@ -5,30 +5,24 @@ title: Do you use AI in your frontend development workflow?
 seoDescription: Do you use AI in your frontend development workflow?
 uri: ai-for-frontend-development
 authors:
-  - title: Isaac Lombard
-    url: https://www.ssw.com.au/people/isaac-lombard/
-related:
-  - generate-ui-mockups-with-ai
-created: 2025-01-23T16:56:00.000Z
+  - title: ""
 guid: dc8d2bb0-bc49-452b-9d0e-00a8d20f9e93
 ---
 AI is transforming frontend development by enabling faster delivery of code and making web development more accessible. From prototyping visuals, generating and deploying entire sites, to generating boilerplate code – the right AI tools can  enhance your productivity and fill gaps in your skillset.
 
-
-
-![Figure: Mockup to Functional Frontend](image_fx_-61-.jpg)
+<TODO VIDEO>
 
 ## Tooling Options
 
-Here is a comparison of AI code generation tools:
+Here is a comparison of AI code generation tools we've tried, at the time of writing:
 
-| Best Use Case                | Tool                                  | Details                                                                                  | Integrations and Source Options                        |
-| ---------------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| Interactivity and Deployment | [v0](https://v0.dev/) ✨ (Recommended) | Utilizes shad-cn/ui. Integrated deployment with Vercel.                                  | Prompts, images (screenshots, sketches, or via Figma). |
-| Responsive Design            | [Lovable](https://lovable.dev/)       | From desktop to mobile, and full-stack applications.                                     | Prompts, images, or via Figma.                         |
-| Non-React Frameworks         | [Bolt.new](https://bolt.new/)         | Terminal access via playground for specific run commands. Integrated deployment options. | Prompt or image.                                       |
-| Pixel-accurate Code          | [Anima](https://www.animaapp.com/)    | Near pixel-accurate code (React, HTML, CSS) based on design tooling integrations.        | Figma, Sketch, or other design tooling via plug-ins.   |
-| Quick Page Designs           | [Uizard](https://uizard.io/)          | Pseudo-designer for creating a set of page designs, with code export options.            | Prompt or screenshot.                                  |
+| Tool        | Best Use Case                                                   | Integrations and Source Options                     |
+|-------------|-----------------------------------------------------------------|----------------------------------------------------|
+| V0          | Interactive React code utilizing shad-cn/ui. Integrated deployment with Vercel. | Prompts, images (screenshots, sketches, or via Figma). |
+| Lovable     | Responsive design – from desktop to mobile, and full-stack applications. | Prompts, images, or via Figma.                     |
+| Bolt.new    | Non-React frameworks, terminal access via their playground for specific run commands. Integrated deployment options. | Prompt or image.                                   |
+| Anima       | Near pixel-accurate code (React, HTML, CSS) based on design tooling integrations. | Figma, Sketch, or other design tooling via plug-ins. |
+| Uizard      | As a pseudo-designer to quickly create a set of page designs, with code export options. | Prompt or screenshot.                              |
 
 :::info
 These tools keep getting better - what they can do changes quickly.
@@ -48,11 +42,9 @@ Using an AI-generated website as a launching point can save you hours of develop
 
 ### Ideation to Deployment
 
-Tools like v0 and Bolt.new let non-technical users take a project from idea to deployment. A team member can turn wireframes, sketches, or Figma files into functional prototypes and deploy them using hosting services like Vercel. This allows stakeholders to interact with live prototypes, provide quick feedback, and iterate collaboratively. The process bridges the gap between design and deployment, speeding up validation and improving teamwork.
+Tools like V0 and Bolt.new let non-technical users take a project from idea to deployment. A team member can turn wireframes, sketches, or Figma files into functional prototypes and deploy them using hosting services like Vercel. This allows stakeholders to interact with live prototypes, provide quick feedback, and iterate collaboratively. The process bridges the gap between design and deployment, speeding up validation and improving teamwork.
 
-`youtube: https://www.youtube.com/embed/cyFVtaLy-bA?si=7jPOmb3MoZ1SPGzt`
-
-### Custom Components
+### Custom components
 
 AI tools make it easy to replicate components from reference websites with minimal effort. Tools like V0 or Anima can analyze and recreate elements like navigation bars, buttons, or card layouts based on inspiration sites. These tools generate the code as a starting point, which you can refine to match your project.
 
@@ -64,12 +56,12 @@ These are powerful tools, but still have some caveats you should keep in mind if
 
 Lack of Context Awareness:
 
-* AI tools often lack the full context of your project, which can complicate integration. An [AI-powered IDE](https://www.ssw.com.au/rules/best-ai-powered-ide/) may be more effective if knowledge of your website is crucial.
+- AI tools often lack the full context of your project, which can complicate integration. An AI-powered IDE may be more effective if knowledge of your website is crucial.
 
 Quality:
 
-* Converting designs may not always result in pixel-perfect outcomes. Complex UIs or animation heavy components are still a challenge. Be prepared for manual adjustments.
+- Converting designs may not always result in pixel-perfect outcomes. Complex UIs requiring physics knowledge aren't often accurate. Be prepared for manual adjustments.
 
 Security:
 
-* AI tools trained on public datasets might introduce biased patterns or insecure code. Properly audit any generated code for enterprise use.
+- AI tools trained on public datasets might introduce biased patterns or insecure code. Properly audit any generated code for enterprise use.
